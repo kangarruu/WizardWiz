@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WizardWiz</string>
+
+    <!--Category names-->
+    <string name="eat">Eat</string>
+    <string name="see">See</string>
+    <string name="shop">Shop </string>
+    <string name="stay">Stay</string>
+
+
+    <!-- EatFragment Strings -->
+    <string name="florean_fortescue">Florean Fortescue\'s Ice Cream Parlour</string>
+    <string name="three_broomsticks">The Three Broomsticks</string>
+    <string name="honeydukes">Honeydukes </string>
+    <string name="madam_puddifoot">Madam Puddifoot\'s</string>
+    <string name="florean_fortescue_desciption">Flourish &amp; Blotts sells a great variety of magic books,
+        including textbooks for Hogwarts courses other books of general magical interest.</string>
+    <string name="three_broomsticks_description">The Three Broomsticks is a well known inn and pub located on High Street in the village of Hogsmeade.
+        It is known for its delicious butterbeer and its beautiful owner Madam Rosmerta, who lives above the pub.</string>
+    <string name="honeydukes_description">Honeydukes is a popular sweets shop located in Hogsmeade that is usually crowded with Hogwarts students and occasionally even the professors of Hogwarts.
+        The shop is filled with many different kinds of wonderful and wild sweets,such as Bertie Botts Every Flavoured Beans, Cauldron Cakes, Blood-Flavoured Lollipops, Acid Pops, and so much more. </string>
+    <string name="madam_puddifoot_description">Located on a little side street off the main High Street, Madam Puddifoot\'s is a small teashop favourite among Hogwarts couples out on dates.</string>
+
+
+
+</resources>
