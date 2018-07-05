@@ -7,19 +7,63 @@
     <string name="shop">Shop </string>
     <string name="stay">Stay</string>
 
+    <string name="the_wizarding_world">The Wizarding World</string>
+    <!--Names and descriptions acquired from https://en.wikipedia.org/wiki/Places_in_Harry_Potter-->
 
     <!-- EatFragment Strings -->
     <string name="florean_fortescue">Florean Fortescue\'s Ice Cream Parlour</string>
-    <string name="three_broomsticks">The Three Broomsticks</string>
     <string name="honeydukes">Honeydukes </string>
     <string name="madam_puddifoot">Madam Puddifoot\'s</string>
-    <string name="florean_fortescue_desciption">Flourish &amp; Blotts sells a great variety of magic books,
-        including textbooks for Hogwarts courses other books of general magical interest.</string>
-    <string name="three_broomsticks_description">The Three Broomsticks is a well known inn and pub located on High Street in the village of Hogsmeade.
-        It is known for its delicious butterbeer and its beautiful owner Madam Rosmerta, who lives above the pub.</string>
+    <string name="florean_fortescue_desciption">Florean Fortescue\'s Ice Cream Parlour, under the management of the owner Florean Fortescue (founder and shopkeeper), sells ice cream and other treats, which could be enjoyed at outdoor tables.</string>
     <string name="honeydukes_description">Honeydukes is a popular sweets shop located in Hogsmeade that is usually crowded with Hogwarts students and occasionally even the professors of Hogwarts.
         The shop is filled with many different kinds of wonderful and wild sweets,such as Bertie Botts Every Flavoured Beans, Cauldron Cakes, Blood-Flavoured Lollipops, Acid Pops, and so much more. </string>
     <string name="madam_puddifoot_description">Located on a little side street off the main High Street, Madam Puddifoot\'s is a small teashop favourite among Hogwarts couples out on dates.</string>
+
+
+    <!-- StayFragment Strings -->
+    <string name="leaky_cauldron">The Leaky Cauldron</string>
+    <string name="three_broomsticks">The Three Broomsticks</string>
+    <string name="the_hogs_head">The Hog\'s Head</string>
+    <string name="leaky_cauldron_description">The Leaky Cauldron is a pub and inn for wizards, located on the Muggle street of Charing Cross Road in London, offering food, drinks and rooms to rent.
+        It was founded by Daisy Dodderidge (1467–1555) in 1500 \"to serve as a gateway between the non-wizarding world and Diagon Alley.\" </string>
+    <string name="three_broomsticks_description">The Three Broomsticks is a well known inn and pub located on High Street in the village of Hogsmeade.
+        It is known for its delicious butterbeer and its beautiful owner Madam Rosmerta, who lives above the pub.</string>
+    <string name="the_hogs_head_description">For those seeking a more secluded environment, The Hog\'s Head offers a certain anonymity. The inn has been host to several important historical events in the wizarding world.
+        It was the headquarters of the 1612 Goblin Rebellion, as well as \"The Prophecy\""</string>
+
+    <!-- ShopFragment Strings -->
+    <string name="flourish_blotts">Flourish &amp; Blotts</string>
+    <string name="madam_malkins">Madam Malkin\'s Robes for All Occasions</string>
+    <string name="magical_menagerie">Magical Menagerie </string>
+    <string name="ollivanders">Ollivanders</string>
+    <string name="quality_quidditch_supplies">Quality Quidditch Supplies</string>
+    <string name="quality_quidditch_supplies_description">Quality Quidditch Supplies sells broomsticks and Quidditch-related items. The store windows often draw young customers to gaze longingly at the merchandise.
+        Its most famous items on display are the Nimbus 2000 and the Firebolt broomsticks that professional leagues use.</string>
+    <string name="flourish_blotts_description">Flourish &amp; Blotts sells a great variety of magic books,
+        including textbooks for Hogwarts courses and other books of general magical interest.</string>
+    <string name="madam_malkins_description">Madam Malkin\'s is a clothing shop next to Flourish &amp; Blotts. Inside the shop, Madam Malkin and her assistants will tailor the robes to fit.</string>
+    <string name="magical_menagerie_description">The Magical Menagerie is a magical creature shop that in addition to selling magical creatures offers advice on animal care and health.
+        Among the creatures in the Magical Menagerie are enormous purple toads, a firecrab, poisonous orange snails, a fat white rabbit that can turn into a silk top hat, ravens, puffskeins,
+        and a cage of sleek black rats that play skipping games with their tails.</string>
+    <string name="Ollivanders_description">The premiere wand shop in Diagon Alley, Ollivanders proclaims to be Makers of Fine Wands since 382.
+        To determine the best wand for a witch or wizard, Mr Ollivander measures various body parts and then checks the reactions of various wands to the buyer, a process to which he refers as \"the wand choosing the wizard.\"</string>
+
+
+    <!-- SeeFragment Strings -->
+    <string name="owl_post">Owl Post</string>
+    <string name="hogsmeade">Hogsmeade Village</string>
+    <string name="gringotts">Gringotts Wizarding Bank </string>
+    <string name="diagon_alley">Diagon Alley</string>
+    <string name="owl_post_description">Owl Post is a post Office filled with at least two to three hundred owls, ranging from great grey owls to tiny scops (the latter for "local deliveries only"), hooting down from colour-coded shelves.
+        These owls deliver mail to people in the wizarding world. The shelves are colour-coded based on how quickly they will arrive at their destination." </string>
+    <string name="hogsmeade_description">Hogsmeade Village, or simply Hogsmeade, is the only settlement in Britain inhabited solely by wizards, witches, and other magical beings, and is located to the northwest of Hogwarts School of Witchcraft and Wizardry.
+        It was founded by medieval wizard Hengist of Woodcroft who fled to Scotland to escape Muggle persecution of wizards in Northumberland.
+        Much of Hogsmeade\'s architecture reflects its medieval origin; the village is known for its leaning medieval houses the most famous of which being the Three Broomsticks.</string>
+    <string name="gringotts_description">Gringotts Wizarding Bank is the only known bank of the wizarding world and it is operated primarily by goblins. A snowy white building, near the intersection of Knockturn Alley and Diagon Alley, Gringotts towers over all neighbouring shops.
+        The main floor is paved with marble and has long counters stretching along its length. Within, wizards and witches keep their money and other valuables in vaults that are protected by very complex and very strong security measures.
+        The vaults extend for miles under London and are accessible through rough stone passageways navigated by magic carts that travel speedily along their tracks. Gringotts also offers Muggle-Wizarding currency exchange.</string>
+    <string name="diagon_alley_description">Diagon Alley is accessible to the wizarding world, to which it is something of an economic hub, but hidden from Muggles. To enter Diagon Alley, one must go through the Leaky Cauldron to a rear courtyard and tap a brick in the wall, found by counting three up and two across, three times.
+        If a wizard or witch needs something, chances are that it can be found in Diagon Alley.</string>
 
 
 

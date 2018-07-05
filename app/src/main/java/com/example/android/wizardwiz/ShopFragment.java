@@ -29,18 +29,21 @@ public class ShopFragment extends Fragment {
 
         //Create a list of Hotspots @param a hotspot title, hotspot description and image
         final ArrayList<Hotspot> hotspots = new ArrayList<>();
-        hotspots.add( new Hotspot(mContext.getString(R.string.florean_fortescue),
-                mContext.getString(R.string.florean_fortescue_desciption),
-                R.drawable.florean_fortescues));
-        hotspots.add( new Hotspot(mContext.getString(R.string.three_broomsticks),
-                mContext.getString(R.string.three_broomsticks_description),
-                R.drawable.florean_fortescues));
-        hotspots.add( new Hotspot(mContext.getString(R.string.honeydukes),
-                mContext.getString(R.string.honeydukes_description),
-                R.drawable.florean_fortescues));
-        hotspots.add( new Hotspot(mContext.getString(R.string.madam_puddifoot),
-                mContext.getString(R.string.madam_puddifoot_description),
-                R.drawable.florean_fortescues));
+        hotspots.add( new Hotspot(getString(R.string.flourish_blotts),
+                getString(R.string.flourish_blotts_description),
+                R.drawable.flourish_blotts));
+        hotspots.add( new Hotspot(getString(R.string.madam_malkins),
+                getString(R.string.madam_malkins_description),
+                R.drawable.madam_malkin));
+        hotspots.add( new Hotspot(getString(R.string.magical_menagerie),
+                getString(R.string.magical_menagerie_description),
+                R.drawable.magical_menagerie));
+        hotspots.add( new Hotspot(getString(R.string.ollivanders),
+                getString(R.string.Ollivanders_description),
+                R.drawable.ollivanders));
+        hotspots.add( new Hotspot(getString(R.string.quality_quidditch_supplies),
+                getString(R.string.quality_quidditch_supplies_description),
+                R.drawable.quality_quidditch));
 
         //Create a HotspotAdapter, whose data source is the ArrayList<Hotspot> hotspots
         HotspotAdapter adapter = new HotspotAdapter(getActivity(), hotspots);

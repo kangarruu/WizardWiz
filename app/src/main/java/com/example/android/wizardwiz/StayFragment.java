@@ -29,18 +29,15 @@ public class StayFragment extends Fragment {
 
         //Create a list of Hotspots @param a hotspot title, hotspot description and image
         final ArrayList<Hotspot> hotspots = new ArrayList<>();
-        hotspots.add( new Hotspot(mContext.getString(R.string.florean_fortescue),
-                mContext.getString(R.string.florean_fortescue_desciption),
-                R.drawable.florean_fortescues));
-        hotspots.add( new Hotspot(mContext.getString(R.string.three_broomsticks),
-                mContext.getString(R.string.three_broomsticks_description),
-                R.drawable.florean_fortescues));
-        hotspots.add( new Hotspot(mContext.getString(R.string.honeydukes),
-                mContext.getString(R.string.honeydukes_description),
-                R.drawable.florean_fortescues));
-        hotspots.add( new Hotspot(mContext.getString(R.string.madam_puddifoot),
-                mContext.getString(R.string.madam_puddifoot_description),
-                R.drawable.florean_fortescues));
+        hotspots.add( new Hotspot(getString(R.string.leaky_cauldron),
+                getString(R.string.leaky_cauldron_description),
+                R.drawable.leaky_cauldron));
+        hotspots.add( new Hotspot(getString(R.string.three_broomsticks),
+                getString(R.string.three_broomsticks_description),
+                R.drawable.three_broomsticks));
+        hotspots.add( new Hotspot(getString(R.string.the_hogs_head),
+                getString(R.string.the_hogs_head_description),
+                R.drawable.hogs_head));
 
         //Create a HotspotAdapter, whose data source is the ArrayList<Hotspot> hotspots
         HotspotAdapter adapter = new HotspotAdapter(getActivity(), hotspots);

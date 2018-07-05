@@ -29,18 +29,18 @@ public class SeeFragment extends Fragment {
 
         //Create a list of Hotspots @param a hotspot title, hotspot description and image
         final ArrayList<Hotspot> hotspots = new ArrayList<>();
-        hotspots.add( new Hotspot(mContext.getString(R.string.florean_fortescue),
-                mContext.getString(R.string.florean_fortescue_desciption),
-                R.drawable.florean_fortescues));
-        hotspots.add( new Hotspot(mContext.getString(R.string.three_broomsticks),
-                mContext.getString(R.string.three_broomsticks_description),
-                R.drawable.florean_fortescues));
-        hotspots.add( new Hotspot(mContext.getString(R.string.honeydukes),
-                mContext.getString(R.string.honeydukes_description),
-                R.drawable.florean_fortescues));
-        hotspots.add( new Hotspot(mContext.getString(R.string.madam_puddifoot),
-                mContext.getString(R.string.madam_puddifoot_description),
-                R.drawable.florean_fortescues));
+        hotspots.add( new Hotspot(getString(R.string.owl_post),
+                getString(R.string.owl_post_description),
+                R.drawable.owl_post));
+        hotspots.add( new Hotspot(getString(R.string.hogsmeade),
+                getString(R.string.hogsmeade_description),
+                R.drawable.hogsmeade));
+        hotspots.add( new Hotspot(getString(R.string.gringotts),
+                getString(R.string.gringotts_description),
+                R.drawable.gringotts));
+        hotspots.add( new Hotspot(getString(R.string.diagon_alley),
+                getString(R.string.diagon_alley_description),
+                R.drawable.diagon_alley));
 
         //Create a HotspotAdapter, whose data source is the ArrayList<Hotspot> hotspots
         HotspotAdapter adapter = new HotspotAdapter(getActivity(), hotspots);

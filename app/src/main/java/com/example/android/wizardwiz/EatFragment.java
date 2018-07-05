@@ -16,7 +16,6 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class EatFragment extends Fragment {
-    private Context mContext;
 
     public EatFragment() {
 
@@ -32,17 +31,14 @@ public class EatFragment extends Fragment {
 
         //Create a list of Hotspots @param a hotspot title, hotspot description and image
         final ArrayList<Hotspot> hotspots = new ArrayList<>();
-        hotspots.add( new Hotspot(mContext.getString(R.string.florean_fortescue),
-                mContext.getString(R.string.florean_fortescue_desciption),
-                R.drawable.florean_fortescues));
-        hotspots.add( new Hotspot(mContext.getString(R.string.three_broomsticks),
-                mContext.getString(R.string.three_broomsticks_description),
-                R.drawable.florean_fortescues));
-        hotspots.add( new Hotspot(mContext.getString(R.string.honeydukes),
-                mContext.getString(R.string.honeydukes_description),
-                R.drawable.florean_fortescues));
-        hotspots.add( new Hotspot(mContext.getString(R.string.madam_puddifoot),
-                mContext.getString(R.string.madam_puddifoot_description),
+        hotspots.add( new Hotspot(getString(R.string.honeydukes),
+                getString(R.string.honeydukes_description),
+                R.drawable.honeydukes));
+        hotspots.add( new Hotspot(getString(R.string.madam_puddifoot),
+                getString(R.string.madam_puddifoot_description),
+                R.drawable.madam_puddifoot));
+        hotspots.add( new Hotspot(getString(R.string.florean_fortescue),
+                getString(R.string.florean_fortescue_desciption),
                 R.drawable.florean_fortescues));
 
 
