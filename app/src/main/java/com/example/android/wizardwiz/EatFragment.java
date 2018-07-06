@@ -18,7 +18,7 @@ import java.util.ArrayList;
 public class EatFragment extends Fragment {
 
     public EatFragment() {
-
+        // Required empty public constructor
     }
 
 

@@ -15,7 +15,6 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class SeeFragment extends Fragment {
-    Context mContext;
 
     public SeeFragment() {
         // Required empty public constructor
@@ -28,6 +27,7 @@ public class SeeFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.hotspot_list, container, false);
 
         //Create a list of Hotspots @param a hotspot title, hotspot description and image
+
         final ArrayList<Hotspot> hotspots = new ArrayList<>();
         hotspots.add( new Hotspot(getString(R.string.owl_post),
                 getString(R.string.owl_post_description),

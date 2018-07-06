@@ -15,7 +15,6 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class StayFragment extends Fragment {
-    Context mContext;
 
     public StayFragment() {
         // Required empty public constructor
